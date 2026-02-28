@@ -1,78 +1,75 @@
 Marketing Insights & Customer Value Prediction
 
+An end-to-end data analytics and machine learning project that analyzes e-commerce sales data to generate business insights and predict customer value segments.
 
-Project Overview
-
-This project analyzes e-commerce sales data to generate business insights and predict customer value segments using Machine Learning.
-
-The workflow includes:
-
-Data cleaning and merging
-
-KPI analysis
-
-Category-level performance analysis
-
-Customer value prediction
-
-Dashboard creation in Power BI
+This project demonstrates the complete analytics lifecycle:
+Data Cleaning → KPI Analysis → Feature Engineering → Machine Learning → Power BI Dashboard
 
 
-Tools Used
+Project Objective
+
+The goal of this project is to:
+Analyze e-commerce sales performance
+Identify key revenue drivers
+Segment customers into value groups (High, Medium, Low)
+Build a predictive ML model for customer value
+Create an interactive Power BI dashboard for business decision-making
+
+
+Tech Stack
 
 Python (Pandas, NumPy)
-
 Scikit-learn
-
+SQL
 Jupyter Notebook
-
 Power BI
 
+
 Business Analysis
+Key KPIs (Business Overview Page)
 
-Created key KPIs such as:
-
-Total Revenue
-
-Total Orders
-
-Total Customers
-
-Average Order Value
-
-Also analyzed:
-
-Monthly revenue trends
-
-Category-wise performance
+![Business Overview](business_overview.png)
 
 
-Machine Learning
+Category-Level Analysis
 
-Built a customer-level dataset
+![Category Performance](category_performance.png)
 
-Segmented customers into Low, Medium, High value groups
-
-Tested Logistic Regression, Decision Tree, and Random Forest
-
-Selected Random Forest as the final model
+Identified top-performing categories (Nest-USA, Apparel, Office, etc.)
 
 
-Key Insight:
-
-Purchase frequency (Total Orders) is the strongest driver of customer value.
 
 
-Dashboard Pages
+Predict customer value segment:
 
-Business Overview – KPIs & monthly trends
+![Customer Value](customer_value_ml.png)
 
-Category Performance – Revenue & orders by category
 
-Customer Value (ML) – Segment distribution & feature importance
+Models Tested
+
+Logistic Regression
+Decision Tree
+Random Forest
+
+Final Model: Random Forest
+Selected based on highest accuracy and better class balance.
+
+
+Model Performance
+
+![Model Results](model_results.png)
+
+Key Insight: Customer purchase frequency is the most important factor in determining customer value.
+
 
 
 Outcome
 
-This project demonstrates end-to-end analytics — from data cleaning to business insights and predictive modeling — integrated into an interactive Power BI dashboard.# market-insights-analysis
-Market insights analysis using Python, SQL, and Power BI
+This project demonstrates:
+
+✔ Strong data cleaning & preprocessing
+✔ KPI-based business analysis
+✔ Customer-level feature engineering
+✔ Model comparison & evaluation
+✔ Explainable ML using feature importance
+✔ Business dashboard integration
